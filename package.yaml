@@ -1,0 +1,22 @@
+name: '@patarapolw/jy'
+version: 0.1.0
+description: 'JSON to YAML parsers, plus more formats'
+main: cli.js
+bin:
+  jy: cli.js
+scripts:
+  start: node cli.js
+keywords:
+  - json
+  - yaml
+  - json5
+  - cli
+author: 'Pacharapol Withayasakpunt <polv@polv.cc> (https://www.polv.cc)'
+license: ISC
+dependencies:
+  js-yaml: ^3.14.0
+  json5: ^2.1.3
+  safe-eval: ^0.4.1
+  yargs: ^16.0.3
+devDependencies:
+  prettier: ^2.1.2
